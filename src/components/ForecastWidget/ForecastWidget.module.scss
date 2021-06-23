@@ -1,0 +1,26 @@
+.wrapper {
+  width: 580px;
+  height: 500px;
+
+  background-color: #C4C4C4;
+
+  border-radius: 5px;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  font-size: 30px;
+  color: #f9f8f838;
+  font-weight: 400;
+
+  position: absolute;
+  top: 50%;
+  left: calc(50% - 92px);
+
+  z-index: 1;
+}

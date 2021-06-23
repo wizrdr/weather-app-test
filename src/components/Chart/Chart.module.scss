@@ -1,0 +1,30 @@
+.barChartWrapper {
+  margin-top: 50px;
+
+  animation-duration: 1s;
+  animation-name: barChart;
+
+  z-index: 2;
+}
+
+.customTooltip {
+  width: 150px;
+  height: 50px;
+
+  background: #F6F6F6;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 5px;
+}
+
+@keyframes barChart {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
